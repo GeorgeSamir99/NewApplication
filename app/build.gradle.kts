@@ -40,6 +40,9 @@ android {
 }
 
 dependencies {
+
+    implementation(libs.coil.compose)
+    implementation(libs.coil.network.okhttp)
     implementation(libs.logging.interceptor)
 
     implementation (libs.converter.gson)
