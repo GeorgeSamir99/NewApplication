@@ -11,5 +11,9 @@ data class NewsResponse(
 	val articles: List<ArticlesItem?>? = null,
 
 	@field:SerializedName("status")
-	val status: String? = null
+	val status: String? = null,
+
+	val code:String? =null,
+	@field:SerializedName("message")
+	val message : String? = null
 )

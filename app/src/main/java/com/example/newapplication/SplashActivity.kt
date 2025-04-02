@@ -47,7 +47,7 @@ class SplashActivity : ComponentActivity() {
 }
 
 @Composable
-fun SplashScreenContent() {
+private fun SplashScreenContent() {
     val context  = LocalContext.current
     LaunchedEffect(Unit){
         Handler(Looper.getMainLooper())

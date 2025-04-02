@@ -7,7 +7,7 @@ val PrimaryLight = Color(0xFFFDFDFD)
 val OnPrimaryLight = Color(0xFF171717)
 val PrimaryDark = Color(0xFF171717)
 val OnPrimaryDark = Color(0xFFFDFDFD)
-
+val blackWith50Opacity = Color(0x80000000)
 //val Purple80 = Color(0xFFD0BCFF)
 //val PurpleGrey80 = Color(0xFFCCC2DC)
 //val Pink80 = Color(0xFFEFB8C8)
